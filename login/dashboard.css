@@ -1,0 +1,84 @@
+body{
+    font-family: NunitoSansRegular;
+}
+.form-page-head{
+    font-family: NunitoSansBold;
+    color: #3d4a9a !important;
+}
+.form-label{
+    color:#484748;
+}
+#sidebarMenu{
+    padding: 0px;
+    /* background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%); */
+    background-color: #09090ab2 !important;
+    background-size: cover;
+}
+#sidebarMenu a{
+    color: rgba(255,255,255,.8);
+}
+.nav-item a{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.nav-item a:hover{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: solid 1px white;
+    color: white !important;
+    background-color: gray;
+}
+#sidebar-separator{
+    color: white;
+}
+.nav-item .active{
+    color: black !important;
+    background-color: white;
+}
+.nav-item .active:hover{
+    color: black !important;
+    background-color: white;
+}
+.fix-img
+{
+    position:fixed;
+}
+@media screen and (max-width : 906px)
+{
+    .div-only-mobile
+    {
+        height: 50px;
+        background-color: black;
+        visibility:visible;
+    }
+    .fix-img
+    {
+        position:relative;
+    }
+}
+#walletback
+{
+    background-image: url('../images/form2.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#backsheet{
+    color: white;
+    background-color: rgb(58 59 64 / 82%);
+    border-radius: 15px;
+}
+.d-card-a{
+    text-decoration: none;
+}
+.d-card{
+    background-color: white;
+    border: 2px solid #404a95;
+    border-radius: 20px;
+}
+.d-card-head{
+    font-family: NunitoSansBold;
+    color: #404a95;
+    /* font-weight: bold; */
+}
